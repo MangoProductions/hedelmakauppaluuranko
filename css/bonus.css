@@ -52,8 +52,15 @@ a:hover {
     
 }
 .logostikos{
-       float: left; 
-
+       text-decoration-style: dashed;
+       background-color: aliceblue;
+       border: 2px solid;
+       padding: 20px;
+       width: 10%;
+       overflow: hidden;
+       margin-left: 20px;
+       margin-top: 20px;
+       border-radius:15px;
 }
 
 img {

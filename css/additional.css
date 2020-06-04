@@ -2,9 +2,11 @@ ul.menu  {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: darkgrey;
   }
 ul.menu > li {
     display: inline;
+    padding:10em;
 }
 .row {
     margin-top: 6%;
@@ -12,3 +14,36 @@ ul.menu > li {
 
 .offset-small.column,
 .offset-small.columns {  margin-left: 4.22222222223%;}
+
+
+.container-full {
+    position: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+
+.twelve.columns > .one.columns > img{height:100%;width:100%;padding: 2.5em 0 0 1.5em; }
+
+.twelve.columns > .eleven.columns > h2{
+    background-color: aliceblue;
+    border: 0.02em solid;
+    padding: 0.25em;
+    width: 7.5em;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius:15px;
+
+}
+
+ul.menu > li:after {
+    padding:2em;
+    content:" |";
+}
+ul.menu > li > a {
+    padding: 0;
+}
+
+ul.menu > li > a {
+    color: antiquewhite;
+}
