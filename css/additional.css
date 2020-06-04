@@ -1,12 +1,12 @@
 ul.menu  {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 10px;
     background-color: darkgrey;
   }
 ul.menu > li {
     display: inline;
-    padding:10em;
+    padding:1em;
 }
 .row {
     margin-top: 6%;
