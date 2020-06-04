@@ -1,0 +1,14 @@
+ul.menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ul.menu > li {
+    display: inline;
+}
+.row {
+    margin-top: 6%;
+}
+
+.offset-small.column,
+.offset-small.columns {  margin-left: 4.22222222223%;}
