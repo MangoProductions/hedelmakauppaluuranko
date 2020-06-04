@@ -1,0 +1,63 @@
+ff{
+    overflow: hidden;
+    width: 600px;
+}
+.kysm {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+    justify-items: center;
+    text-decoration-style: dashed;
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 20px;
+    width: 600px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:15px;
+}
+
+.vali {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: darkgrey;
+    max-width: 100%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+    color: antiquewhite;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration-color: aliceblue;
+}
+
+.row{
+    float: left;
+    width: 50%;
+}
+
+.dow{
+    float: right;
+    width: 50%;
+    
+}
+.logostikos{
+       float: left; 
+
+}
+
+img {
+max-width: 100%;
+  height: auto;
+}
+
