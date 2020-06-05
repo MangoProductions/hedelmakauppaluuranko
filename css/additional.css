@@ -3,17 +3,21 @@
 /* MENU SYSTEM */
 ul.menu  {
     list-style-type: none;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: darkgrey;
+    margin: 50px auto;
+    padding:10px 0 10px;
+    background-color: darkgrey;text-align: center;
   }
 ul.menu > li {
     display: inline;
-    padding:1em;
+    padding:0.5em;
 }
-ul.menu > li:after {
-    padding:2em;
+ul.menu li:after {
+    padding:2.5em;
     content:" |";
+}
+ul.menu li:last-child::after {
+    padding:0;
+    content:none;
 }
 ul.menu > li > a {
     padding: 0;
