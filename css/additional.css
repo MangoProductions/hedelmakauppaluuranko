@@ -1,3 +1,6 @@
+/* !!ALL ADDITIONAL STUFF THAT ARE NEEDED WITHOUT MAKING MODIFICATIONS TO ORIGINAL FILE!! */
+
+/* MENU SYSTEM */
 ul.menu  {
     list-style-type: none;
     margin: 0 auto;
@@ -8,14 +11,28 @@ ul.menu > li {
     display: inline;
     padding:1em;
 }
+ul.menu > li:after {
+    padding:2em;
+    content:" |";
+}
+ul.menu > li > a {
+    padding: 0;
+}
+
+ul.menu > li > a {
+    color: antiquewhite;
+}
+/* ADDING SOME SPACING BETWEEN ORIGINAL ROW(s) */
 .row {
     margin-top: 6%;
 }
 
+/* NEW OFFSET CLASS, TO MAKE IT LOOK NICER */
+
 .offset-small.column,
 .offset-small.columns {  margin-left: 4.22222222223%;}
 
-
+/* SO WE CAN HAVE OUTSIDE THE ORIGINAL FULL SCREEN STUFF */
 .container-full {
     position: block;
     width: 100%;
@@ -23,6 +40,7 @@ ul.menu > li {
     padding: 0 20px;
     box-sizing: border-box; }
 
+/* SOME STUFF RELATED TO LOGO / TEXT */
 .twelve.columns > .one.columns > img{height:100%;width:100%;padding: 2.5em 0 0 1.5em; }
 
 .twelve.columns > .eleven.columns > h2{
@@ -36,14 +54,3 @@ ul.menu > li {
 
 }
 
-ul.menu > li:after {
-    padding:2em;
-    content:" |";
-}
-ul.menu > li > a {
-    padding: 0;
-}
-
-ul.menu > li > a {
-    color: antiquewhite;
-}
