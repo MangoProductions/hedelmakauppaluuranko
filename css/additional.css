@@ -1,6 +1,6 @@
 /* !!ALL ADDITIONAL STUFF THAT ARE NEEDED WITHOUT MAKING MODIFICATIONS TO ORIGINAL FILE!! */
 
-/* MENU SYSTEM */
+/* MENU SYSTEM (USED ALSO IN FOOTER)*/
 ul.menu  {
     list-style-type: none;
     margin: 50px auto;
@@ -58,3 +58,17 @@ ul.menu > li > a {
 
 }
 
+/* COMPONENT: BOXES */
+
+.item.box {
+    background-color: aliceblue;
+    border: 0.02em solid;
+    padding: 1em;
+    width: 10em;
+    height:11em;
+    text-align:center;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius:15px;
+}
+.item.box > img {width:100%;}
