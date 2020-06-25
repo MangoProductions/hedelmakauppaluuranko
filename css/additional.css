@@ -1,0 +1,188 @@
+/* !!ALL ADDITIONAL STUFF THAT ARE NEEDED WITHOUT MAKING MODIFICATIONS TO ORIGINAL FILE!! */
+
+/* MENU SYSTEM (USED ALSO IN FOOTER)*/
+ul.menu  {
+    list-style-type: none;
+    margin: 50px auto;
+    padding:10px 0 10px;
+    background-color: darkgrey;text-align: center;
+  }
+ul.menu > li {
+    display: inline;
+    padding:0.5em;
+}
+ul.menu li:after {
+    padding:2.5em;
+    content:" |";
+}
+ul.menu li:last-child::after {
+    padding:0;
+    content:none;
+}
+ul.menu > li > a {
+    padding: 0;
+}
+
+ul.menu > li > a {
+    color: antiquewhite;
+}
+/* ADDING SOME SPACING BETWEEN ORIGINAL ROW(s) */
+.row {
+    margin-top: 6%;
+}
+
+/* NEW OFFSET CLASS, TO MAKE IT LOOK NICER */
+
+.offset-small.column,
+.offset-small.columns {  margin-left: 4.22222222223%;}
+
+/* SO WE CAN HAVE OUTSIDE THE ORIGINAL FULL SCREEN STUFF */
+.container-full {
+    position: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+
+/* SOME STUFF RELATED TO LOGO / TEXT */
+.twelve.columns > .one.columns > img{height:100%;width:100%;padding: 2.5em 0 0 1.5em; }
+
+.twelve.columns > .eleven.columns > h2{
+    background-color: aliceblue;
+    border: 0.02em solid;
+    padding: 0.25em;
+    width: 7.5em;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius:15px;
+
+}
+
+/* COMPONENT: BOXES */
+
+.item.box {
+    background-color: aliceblue;
+    border: 0.02em solid;
+    padding-right: 1em;
+    width: 10em;
+    height:11em;
+    text-align:center;
+    float: left;
+    margin-top: 20px;
+    border-radius:15px;
+    padding-bottom: 58px;
+    margin-left: 10px;
+    margin-right: 22px;
+    padding-right: 20px;
+}
+.item.box > img {width:100%;}
+
+
+/*buttons*/
+
+.btn1 {
+    border: 0.02em solid black;
+    background-color: mediumaquamarine;
+    border-radius:15px;
+    color: red;
+    margin-left: 0px;
+    padding-right: 18px;
+}
+
+.tuote {
+    padding: 0px;
+}
+
+/*shoopcoort*/
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    background-color: mediumaquamarine;
+    color: black;
+}
